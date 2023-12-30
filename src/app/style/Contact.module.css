@@ -1,0 +1,76 @@
+#heroAll{
+    margin-bottom: 0;
+}
+.index{
+    padding: 2.06rem 15rem 2.13rem;
+    background: #272B39;
+}
+.index h1{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.index span{
+    color: #F5C33D;
+}
+.index h3{
+    color: #FFF;
+font-family: Outfit;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding-block: 1.56rem;
+}
+.name{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.56rem;
+}
+
+.inputs input , .inputs textarea{
+    padding: 0.81rem 1.25rem;
+    background: transparent;
+    border: 1px solid #5E5E5E;
+    width: 100%;
+    margin-bottom: 1.56rem;
+}
+.inputs input::placeholder ,.inputs textarea::placeholder{
+    color: #FFF;
+font-family: Outfit;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media (max-width:768px){
+    .index{
+        padding: 5.69rem 0.94rem 1.19rem;
+    }
+    .index h1,.index h3{
+
+        display: none;
+    }
+    .name{
+        flex-direction: column;
+        gap: 0;
+    }
+    .name input{
+        width: 100%;
+    }
+}

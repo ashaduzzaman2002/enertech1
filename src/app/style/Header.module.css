@@ -1,0 +1,269 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.mainhead {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.94rem 15rem;
+    background: #373B49;
+    backdrop-filter: blur(12.5px);
+    align-items: center;
+}
+
+/* a {
+    text-decoration: none;
+
+} */
+/*
+:root {
+    --Poppins: 'Poppins', sans-serif;
+    --Playfair: 'Playfair Display', serif;
+} */
+
+.NavbarList li {
+    list-style: none;
+}
+
+.NavbarList li a {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.NavbarList li a:hover {
+    color: var(--yellow, #F5C33D);
+    font-family: Outfit;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.NavbarList li a.active{
+    color: var(--yellow, #F5C33D);
+    font-family: Outfit;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.NavbarList {
+    display: flex;
+    gap: 1.81rem;
+}
+
+
+/* .btn a{
+    color: #BA9778;
+} */
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.88rem 15rem;
+    background-color: #272B39;
+    flex-direction: row-reverse;
+
+}
+
+.head h1 {
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.headmail {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.info span {
+    display: flex;
+    align-items: center;
+    gap: 0.63rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/* .info1{
+    margin-right: 2.5rem;
+} */
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.94rem;
+}
+
+
+
+
+
+
+
+
+
+
+.css-1t6c9ts{
+    justify-content: center;
+}
+@media (max-width: 768px){
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.75rem 0.94rem;
+
+    }
+    .info h1,.headmail hr{
+        display: none;
+
+    }
+    #a{
+        display: none;
+    }
+  }
+
+
+
+
+
+
+/* Hamburger menu icon styles */
+#menuIcon {
+    display: none; /* Hide the menu icon on larger screens */
+    cursor: pointer;
+  }
+
+  /* Bar styles for hamburger menu icon */
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+#menuIcon {
+    display: none;
+}
+.mobileNav{
+    height:100vh ;
+    width: 100%;
+    position:fixed !important;
+    background-color: #272B39;
+   right: 0 !important;
+   z-index: 99999 !important;
+   left: 0 !important;
+   top: 0 !important;
+   bottom: 0 !important;
+   color: white;
+
+
+}
+.mobileNav ul li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+.mobileNav ul li a {
+
+    color: var(--black-2, white);
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+text-decoration: none;
+
+}
+.mainhead nav{
+    z-index: 99999999;
+}
+.mobileNav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media (max-width:768px) {
+
+    .NavbarList{
+        display: none !important;
+    }
+    #menuIcon {
+        display: block;
+    }
+    #bttn{
+        display: none   ;
+    }
+    .btn{
+        display: none ;
+    }
+    .mainhead{
+        position: relative;
+        z-index: 99;
+    }
+    .mainhead{
+        padding: 0.94rem !important ;
+    }
+    #logo{
+        width: 7.125rem;
+        height: 2.875rem;
+
+    }
+    .closebtn img{
+        width: 12%;
+        padding: 20px 0 0 20px;
+        cursor: pointer;
+    }
+
+
+
+
+}
+
+
+
+@media (min-width: 1900px) {
+    .mainhead{
+        padding-inline: 15rem;
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1850px){
+    .head{
+        padding: 0.88rem 3.3rem;
+    }
+    .mainhead{
+        padding: 0.94rem 3.3rem;
+    }
+}

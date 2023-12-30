@@ -1,0 +1,119 @@
+.up{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    gap: 0.94rem;
+    margin-bottom: 3.12rem;
+}
+.up h2{
+    color: var(--blue, #272B39);
+font-family: Lexend Deca;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.up span{
+    color: var(--yellow, #F5C33D);
+}
+.up p{
+    color: #7F7F7F;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-inline: 10rem;
+}
+.down{
+    display: flex;
+    gap: 1.25rem;
+
+}
+.aboutBox{
+    border: 1px solid #EAEEFB;
+background: #FFF;
+max-width: 24%;
+padding: 1.88rem 1.94rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.94rem;
+
+}
+.aboutBox h3{
+    color: var(--blue, #272B39);
+font-family: Outfit;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.aboutBox p{
+    color: #7F7F7F;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: -0.6rem;
+}
+.pDown{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#down{
+    flex-wrap: wrap;
+}
+#aboutBox{
+    width: 22%;
+}
+
+
+@media (max-width: 768px){
+    .up h2{
+font-size: 1.5rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .up p{
+text-align: center;
+font-size: 0.75rem;
+font-weight: 400;
+padding-inline: 0;
+    }
+    .aboutBox{
+        padding: 0.63rem;
+        min-width: 10rem;
+
+    }
+    .down{
+        overflow: auto;
+        justify-content: initial;
+        width: 100%;
+    }
+    .aboutBox img{
+        width: 3.8rem;
+        height: 100%;
+    }
+    .aboutBox h3{
+font-size: 1.0625rem;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+
+    }
+    .aboutBox p{
+font-size: 0.6875rem;
+font-weight: 400;
+text-transform: capitalize;
+    }
+}
+

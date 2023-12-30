@@ -1,0 +1,244 @@
+.footer{
+    padding-inline:15rem     ;
+
+    background: var(--blue, #272B39);
+}
+
+.footerBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.75rem 0 2.5rem;
+}
+.footerBox hr{
+    width: 0.0625rem;
+height: 13.1875rem;
+rotate: 180deg;
+border: 1px solid #5E5E5E;
+/* margin-right: 12.93rem;
+margin-left: 12.5rem; */
+
+}
+.detail h5{
+    color: #7F7F7F;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 171.429% */
+padding-block: 0.94rem 1rem;
+}
+.contact{
+    display: flex;
+    gap: 3.12rem;
+    align-items: center;
+
+}
+.add{
+    display: flex;
+    align-items: center;
+    gap: 0.62rem;
+}
+.addDetail h3{
+    color: var(--dark-text, #8C8C8C);
+    font-family: Lexend Deca;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0.31rem;
+}
+.addDetail h2{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.news h1{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.news p{
+    color: var(--dark-text, #8C8C8C);
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 171.429% */
+padding-block: 0.87rem 1.56rem;
+}
+.news{
+    width: 40%;
+}
+.inputs{
+    width: 35.5625rem;
+height: 3rem;
+border-radius: 3.4375rem;
+
+background: #3d414d;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.38rem 0.38rem 0.38rem 1.25rem;
+}
+.inputText{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.inputText input{
+    background: none;
+    border: none;
+
+}
+
+.inputText input::placeholder{
+    color: var(--dark-text, #8C8C8C);
+
+font-family: Lexend Deca;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn{
+    padding: 0.56rem 1.56rem;
+    border-radius: 3.1875rem;
+border: 1px solid var(--yellow, #F5C33D);
+color: #FFF;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.inputs a{
+    text-decoration: none;
+}
+.footer hr{
+   border:1px solid #5E5E5E;
+}
+.copy{
+    padding-block: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.link{
+
+display: flex;
+gap: 1.87rem;
+}
+.link a{
+    text-decoration: none;
+    color: var(--dark-text, #8C8C8C);
+    font-family: Lexend Deca;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.copyright h3{
+    color: var(--dark-text, #8C8C8C);
+font-family: Lexend Deca;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media (max-width: 768px) {
+    .footer{
+         padding-inline: 0.94rem;
+    }
+    .footerBox{
+        padding: 1.56rem 0;
+        flex-direction: column;
+    }
+    .footerBox hr{
+        display: none;
+    }
+    .detail{
+        width: 100%;
+    }
+    .detail h5{
+font-size: 0.6875rem;
+font-weight: 400;
+line-height: 1.125rem; /* 163.636% */
+padding-block: 0.62rem;
+    }
+    .add img{
+        width: 1.875rem;
+height: 1.875rem;
+    }
+    .addDetail h3{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .addDetail h2{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 0.6875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact {
+    gap: 0.75rem;
+}
+.news{
+    margin-top:1rem ;
+    width: 100%;
+}
+.news h1{
+font-size: 1.125rem;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.news p{
+font-size: 0.6875rem;
+font-weight: 400;
+line-height: 1.125rem; /* 163.636% */
+}
+.inputs{
+    width: 100%;
+}
+.social {
+    gap: 0.62rem;
+}
+.social img{
+    width: 1.25rem;
+height: 1.25rem;
+}
+.copy{
+    flex-direction: column;
+    gap: 1rem;
+}
+.link{
+    gap: 1.31rem;
+    flex-wrap: wrap;
+}
+
+}
+
+
+@media (min-width: 1100px) and (max-width: 1850px){
+ .footer{
+    padding-inline: 3.3rem;
+ }
+}

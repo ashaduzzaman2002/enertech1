@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Poppins: 'Poppins', sans-serif;
+  --Playfair: 'Playfair Display', serif;
+}
+
+/* .index{
+  padding: ;
+} */
+
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.62rem;
+  color: #FFF;
+  font-family: Outfit;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: .75rem 1.25rem;
+  border: 1px solid var(--yellow, #F5C33D);
+background: var(--blue, #272B39);
+}
+#a{
+  text-decoration: none;
+}
+.btn-hero{
+  margin-top: 1.56rem;
+}
+
+.index{
+ padding: 0 15rem 7.5rem;
+
+}
+.btn-p-more{
+  padding-inline: 3.63rem;
+  background-color: #FFF ;
+  color: var(--blue, #272B39) !important;
+  border: 1px solid var(--blue, #272B39);
+}
+
+.btn-p-more:hover{
+  border-bottom: 1px solid var(--yellow, #F5C33D);
+background: var(--blue, #272B39) !important;
+color: white !important;
+}
+.btn-p{
+  padding-inline: 1.25rem 1.44rem;
+  margin-top: 3.13rem;
+}
+/* .index-testi{
+  background: var(--blue, #272B39);
+} */
+
+
+.hero-all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url('/images/heroall.png'); */
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/heroall.png') center/cover no-repeat;
+  color: var(--yellow, #F5C33D);
+font-family: Outfit;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+padding-block: 8.62rem 9.12rem;
+margin-bottom: 7.5rem;
+flex-direction: column;
+}
+
+
+@media (max-width: 768px){
+  .index{
+    padding: 0 0.94rem 2.19rem ;
+  }
+  .btn{
+    color: #FFF;
+font-family: Outfit;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+padding: 0.5rem 0.94rem;
+margin-top: 1rem;
+  }
+  .btn-hero{
+    margin-top: 0.94rem;
+  }
+  .mobile-hide{
+    display: none;
+  }
+  .hero-all h1{
+    color: var(--yellow, #F5C33D);
+font-family: Outfit;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+  }
+  .hero-all{
+    margin-bottom: 2.19rem;
+    padding-block: 7rem;
+  }
+  .blog-btn{
+    margin-top: 3.3rem;
+  }
+
+}
+
+@media (min-width: 800px){
+.desktop-hide{
+  display: none;
+}
+
+}
+
+@media (min-width: 1100px) and (max-width: 1850px){
+  .index{
+    padding: 0 3.3rem 7.5rem;
+  }
+}
+
+

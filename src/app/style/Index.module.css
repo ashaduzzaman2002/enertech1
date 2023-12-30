@@ -1,0 +1,116 @@
+.mainHero{
+    /* background-image: url(../img/herobg.svg),; */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/herobg.svg) center/cover no-repeat;
+
+    padding: 6.87rem 15rem 6.81rem 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7.5rem;
+}
+.heroLeft{
+    display: flex;
+    align-items: center;
+    gap: 0.94rem;
+
+
+}
+.line{
+   position: relative;
+}
+.line img{
+    position: absolute;
+    top: -116px;
+}
+.heroLeft h3{
+    color: #FFF;
+font-family: Outfit;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.heroLeft span{
+    color: var(--yellow, #F5C33D);
+}
+.heroLeft h1{
+    color: #FFF;
+font-family: Outfit;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+padding-block: 0.63rem 0.94rem;
+}
+.heroLeft p{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.heroImg{
+    position: relative;
+
+}
+/* #heroImg{
+    width: 18.0625rem;
+height: 39.625rem;
+} */
+.prevImg{
+    display: flex;
+    align-items: center;
+    gap: 0.94rem;
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.25rem;
+}
+.prevImg img{
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+
+    .mainHero{
+            padding: 1.6rem 0.94rem;
+            flex-direction: column-reverse;
+            margin-bottom: 2.19rem;
+    }
+    .heroLeft{
+        margin-top: 1.63rem;
+    }
+    .heroLeft h3{
+font-size: 0.8125rem;
+font-weight: 500;
+
+    }
+    .heroLeft h1{
+font-size: 1.5rem;
+font-weight: 700;
+text-transform: capitalize;
+    }
+    .heroLeft p{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .heroImg img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1850px){
+    .mainHero{
+        padding: 6.87rem 3.3rem 6.81rem 2.3rem;
+    }
+}
+
+
+

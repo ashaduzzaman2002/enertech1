@@ -1,0 +1,43 @@
+{
+    "products":[
+{
+    "imageSrc": "blub1",
+    "title": "Con",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/Products/call"
+  },
+  {
+    "imageSrc": "blub2",
+    "title": "Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/link2"
+  },
+
+  {
+    "imageSrc": "blub1",
+    "title": "Control Pal",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/Products/call"
+  },
+  {
+    "imageSrc": "blub2",
+    "title": "Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/link2"
+  },
+  {
+    "imageSrc": "blub1",
+    "title": "Control Panel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/Products/call"
+  },
+  {
+    "imageSrc": "blub2",
+    "title": "Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam non odio in efficitur. Fusce tincidunt.",
+    "link": "/link2"
+  }
+
+]
+}
+

@@ -1,0 +1,76 @@
+.up{
+    display: flex;
+    align-items: center;
+    gap: 3.12rem;
+}
+.detail h1{
+    padding-bottom: 1.25rem;
+    color: #000;
+font-family: Lexend Deca;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.detail p{
+    color: #7F7F7F;
+font-family: Lexend Deca;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.down{
+    margin-top: 3.44rem;
+}
+.box{
+    margin-top: 1.56rem;
+}
+.box h1{
+    color: var(--blue, #272B39);
+font-family: Lexend Deca;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 0.94rem;
+}
+.box p{
+    color: #7F7F7F;
+    font-family: Lexend Deca;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width: 768px){
+    .up{
+        flex-direction: column;
+        gap: 1.56rem;
+    }
+    .up img{
+        width: 100%;
+        height: 100%;
+    }
+    .detail h1{
+font-size: 1.5rem;
+font-weight: 700;
+padding-bottom: 0.31rem;
+line-height: normal;
+    }
+    .box p,.detail p{
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .box h1{
+font-size: 1.125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .down{
+        margin-top: 1.56rem;
+    }
+}

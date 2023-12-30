@@ -1,0 +1,129 @@
+.box{
+    display: flex;
+    align-items: center;
+    gap:  3.13rem;
+}
+.left h1{
+    color: var(--blue, #272B39);
+font-family: Lexend Deca;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.left h2{
+    color: #000;
+    font-family: Lexend Deca;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-block: 0.94rem;
+}
+.left p{
+    color: #7F7F7F;
+    font-family: Lexend Deca;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#box2{
+    margin-top: 4.37rem;
+}
+.right{
+    width: 50%;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.94rem;
+    margin-bottom: 2.5rem;
+}
+.up h1{
+    color: var(--blue, #272B39);
+font-family: Lexend Deca;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.up p{
+    color: #7F7F7F;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-inline: 11rem;
+}
+.down hr{
+    rotate: 180deg;
+
+height: 3.8125rem;
+background: rgba(0, 0, 0, 0.2);
+}
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:768px){
+    .left h1{
+font-size: 1.5rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .left h2{
+font-size: 1rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .left p{
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .box{
+        flex-direction: column-reverse;
+        gap: 0.94rem;
+    }
+    .right {
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+        height: 100%;
+    }
+    .box21{
+        flex-direction: column;
+        margin-top: 0.94rem !important;
+    }
+    .up h1{
+font-size: 1.5rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .up p{
+text-align: center;
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+padding-inline: 0;
+    }
+    .down img{
+        width: 6.25rem;
+height: 2.125rem;
+    }
+    .down hr{
+        display: none;
+    }
+    .down{
+        gap: 0.94rem;
+        overflow: auto;
+    }
+}
